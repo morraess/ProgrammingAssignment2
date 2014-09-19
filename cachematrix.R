@@ -6,7 +6,7 @@
 ## It provides all the setter and getter methods to work with the inverse cache
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL ##initialise m to null 
-  orgData <- NULL ##initialise variable to capture orgData
+  orgData <- NULL ##initialise variable to capture orgData 
   
   ## prepare set function
   set <- function(y) {
